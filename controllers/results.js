@@ -7,5 +7,8 @@ router.get('/', (req, res) => {
 	res.send('This is the Resultspage')
 })
 
+router.post('/', (req, res) => {
+	res.send('This is the Resultspage')
+})
 // Export module
 module.exports = router
